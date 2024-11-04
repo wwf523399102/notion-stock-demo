@@ -15,95 +15,62 @@
       </div>
     </div>
     <!-- TradingView Widget BEGIN -->
-    <div class="tradingview-widget-container" id = 'light'>
-      <div class="tradingview-widget-container__widget"></div>
-      <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/indices/" rel="noopener" target="_blank"><span class="blue-text">Indices</span></a>, <a href="https://www.tradingview.com/markets/futures/" rel="noopener" target="_blank"><span class="blue-text">Commodities</span></a> <span class="blue-text">and</span> <a href="https://www.tradingview.com/markets/currencies/" rel="noopener" target="_blank"><span class="blue-text">Forex</span></a> by TradingView</div>
-      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
-      {
-      "colorTheme": "light",
-      "dateRange": "1M",
-      "showChart": true,
-      "locale": "en",
-      "largeChartUrl": "",
-      "isTransparent": true,
-      "showSymbolLogo": true,
-      "width": "400",
-      "height": "600",
-      "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
-      "plotLineColorFalling": "rgba(25, 118, 210, 1)",
-      "gridLineColor": "rgba(42, 46, 57, 1)",
-      "scaleFontColor": "rgba(120, 123, 134, 1)",
-      "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
-      "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
-      "symbolActiveColor": "rgba(33, 150, 243, 0.12)",
-      "tabs": [
-        {
-          "title": "Indices",
-          "symbols": [
-            {
-              "s": "FOREXCOM:NSXUSD",
-              "d": "Nasdaq 100"
-            },
-            {
-              "s": "FOREXCOM:DJI",
-              "d": "Dow 30"
-            },
-            {
-              "s": "SSE:000001",
-              "d": "上证指数"
-            },
-            {
-              "s": "SZSE:399001",
-              "d": "深证成指"
-            }
-          ],
-          "originalTitle": "Indices"
-        },
-        {
-          "title": "Commodities",
-          "symbols": [
-            {
-              "s": "COMEX:GC1!",
-              "d": "Gold"
-            },
-            {
-              "s": "NYMEX:CL1!",
-              "d": "Crude Oil"
-            },
-            {
-              "s": "OANDA:XAGUSD",
-              "d": "Silver"
-            }
-          ],
-          "originalTitle": "Commodities"
-        },
-        {
-          "title": "Forex",
-          "symbols": [
-            {
-              "s": "FX_IDC:USDCNY",
-              "d": "USD"
-            },
-            {
-              "s": "FX_IDC:GBPCNY",
-              "d": "GBP"
-            },
-            {
-              "s": "FX_IDC:EURCNY",
-              "d": "EUR"
-            },
-            {
-              "s": "FX_IDC:JPYCNY",
-              "d": "JPY"
-            }
-          ],
-          "originalTitle": "Forex"
-        }
-      ]
-    }
-      </script>
-    </div>
-    <!-- TradingView Widget END -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+  {
+  "symbols": [
+    [
+      "沪深300",
+      "SSE:510300|1D"
+    ],
+    [
+      "隆基绿能",
+      "SSE:601012|1D"
+    ],
+    [
+      "四创电子",
+      "SSE:600990|1D"
+    ]
+  ],
+  "chartOnly": false,
+  "width": "100%",
+  "height": "100%",
+  "locale": "en",
+  "colorTheme": "light",
+  "autosize": true,
+  "showVolume": false,
+  "showMA": false,
+  "hideDateRanges": false,
+  "hideMarketStatus": false,
+  "hideSymbolLogo": false,
+  "scalePosition": "right",
+  "scaleMode": "Normal",
+  "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+  "fontSize": "10",
+  "noTimeScale": false,
+  "valuesTracking": "1",
+  "changeMode": "price-and-percent",
+  "chartType": "area",
+  "maLineColor": "#2962FF",
+  "maLineWidth": 1,
+  "maLength": 9,
+  "headerFontSize": "medium",
+  "lineWidth": 2,
+  "lineType": 0,
+  "dateRanges": [
+    "1d|1",
+    "1m|30",
+    "3m|60",
+    "12m|1D",
+    "60m|1W",
+    "all|1M"
+  ]
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
     <!-- TradingView Widget BEGIN -->
     <div class="tradingview-widget-container" id = 'dark'>
       <div class="tradingview-widget-container__widget"></div>
